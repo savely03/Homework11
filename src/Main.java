@@ -17,12 +17,13 @@ public class Main {
     public static void task2() {
         System.out.println("Task2:");
         String fullName = "Ivanov Ivan Ivanovich";
+        fullName = fullName.toUpperCase();
         System.out.printf(" Данные ФИО сотрудника для заполнения отчета - %s.\n", fullName.toUpperCase());
     }
 
     public static void task3() {
         System.out.println("Task3:");
-        String fullName = "Иванов Семён Семёнович";
+        String fullName = "Иванов Семен Семенович";
         fullName = fullName.replace('ё', 'e' );
         System.out.printf(" Данные ФИО сотрудника - %s.\n", fullName);
     }
